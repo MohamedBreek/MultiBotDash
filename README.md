@@ -75,15 +75,5 @@ Open `public/` to preview client pages such as `dashboard.html`, `server.html`, 
 - If you add new environment variables, document them here and add defaults to `.env.example` when appropriate.
 - Small pull requests and issues are welcome.
 
-## Security
-
-- Rotate any credentials that were exposed prior to switching to environment variables.
-- Validate and sanitize any input that could be stored or displayed to prevent injection or XSS.
-
-## License
-
-MIT
-
 ---
 
-If you want me to tailor this README more specifically to a hosted deployment (Heroku, Vercel, Fly, Docker) or to add a short troubleshooting section, tell me which target and I'll update the file accordingly.
